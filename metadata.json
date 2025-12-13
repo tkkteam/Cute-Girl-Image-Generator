@@ -1,0 +1,5 @@
+{
+  "name": "Cute Girl Image Generator",
+  "description": "An interactive tool to create prompts and generate AI images of cute girls based on poses, angles, and themes.",
+  "requestFramePermissions": []
+}
