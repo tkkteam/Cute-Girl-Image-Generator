@@ -14,7 +14,7 @@ const App: React.FC = () => {
             </div>
             <div>
               <h1 className="text-xl md:text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-purple-600 leading-tight drop-shadow-sm">
-                ระบบสร้าง Prompt AI Power By ตาตั้มไอทีขั้นเทพ 
+                Ai generator Prompt master
               </h1>
               <p>TKK Developer Web application</p>
               <p className="text-xs md:text-sm text-gray-500 font-medium tracking-wide">AI Prompt File Generator</p>
