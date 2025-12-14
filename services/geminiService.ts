@@ -9,8 +9,8 @@ export const generateImage = async (
   referenceImage?: string
 ): Promise<string> => {
   try {
-    // Determine the best model. Using gemini-3-pro-image-preview for high quality output.
-    const model = 'gemini-3-pro-image-preview';
+    // Use gemini-2.5-flash-image which is generally available and doesn't require specific allowlisting like the pro-image-preview model might
+    const model = 'gemini-2.5-flash-image';
     
     // Map the string ratio to the supported type
     const validRatios: AspectRatio[] = ["1:1", "3:4", "4:3", "9:16", "16:9"];
@@ -46,7 +46,7 @@ export const generateImage = async (
       config: {
         imageConfig: {
           aspectRatio: selectedAspectRatio,
-          imageSize: "1K", // Standard size for speed/compatibility
+          // imageSize is not supported for gemini-2.5-flash-image
         },
       },
     });
