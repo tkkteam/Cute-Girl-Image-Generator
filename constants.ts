@@ -57,6 +57,7 @@ export const REFERENCE_MODES: Option[] = [
 
 export const ANGLES: Option[] = [
   { id: 'eye-level', label: 'ระดับสายตา (Eye-Level)', value: 'camera facing directly forward, neutral perspective, clean background, natural proportions' },
+  { id: 'Canon EOS R5', label: 'Canon EOS R5 (Canon EOS)', value: 'Canon EOS R5, 85mm f/1.2 lens, f/1.2 aperture, exceptional depth of field, moist skin, a fashion aesthetic that emphasizes exceptional detail.' },
   { id: 'knee-up', label: 'เกือบเต็มตัว (Knee-Up)', value: 'Knee-up shot (American Shot), framing from knees to head, showing most of the outfit, almost full body, balanced composition' },
   { id: 'high-angle', label: 'มุมสูง (High Angle)', value: 'High-angle shot looking down at (subject), wide-frame, soft shadows, subtle perspective distortion.' },
   { id: 'low-angle', label: 'มุมต่ำ (Low Angle)', value: 'Low-angle shot capturing (subject) from below, emphasizing height and presence, dramatic perspective.' },
@@ -79,6 +80,7 @@ export const ANGLES: Option[] = [
 
 export const THEMES: Option[] = [
   { id: 'supermarket', label: 'ซูเปอร์มาร์เก็ต (Supermarket)', value: 'Supermarket aisle environment. Background features fully stocked shelves with various snacks, dry foods, chocolates, biscuits, and crackers in colorful packaging. Bright supermarket lighting.' },
+  { id: 'Cafe in area', label: 'คาเฟ่ในสวนร่มรื่น (Cafe in area)', value: 'A cafe in a lush garden with ornamental trees, a small waterfall, and dry ice floating on the ground. Tables are set amidst the verdant foliage. They serve large croissants with cream and fresh strawberries, and Americano coffee in a plastic cup with a straw. The sign says TatumAI Cafe' },
   { id: 'futsal-field', label: 'สนามฟุตซอล (Futsal Field)', value: 'Background is a futsal field enclosed with safety netting. Inside the field, blurred figures of men playing football. Bright spotlights illuminate the area at night, energetic atmosphere.' },
   { id: 'bedroom-night-lights', label: 'ห้องนอนมืด/ไฟประดับ (Dark Bedroom & Lights)', value: 'Modern white bedroom, modern style, dark atmosphere, pitch black room with small sparkling fairy lights decorating the room' },
   { id: 'Coffee shop', label: 'หน้าร้านกาแฟ (Coffee shop)', value: 'The cafe s facade, or rather, the flower arrangement, is in a European style, vintage, with a glass door framed in an adapted wooden design. The black glass reflects images of people and flowers, and the words "Tatatum AI" are written on it."Nature: In the lower left, a bush of pink hydrangeas is in bloom. In the back right, green vines are clinging to a light orange brick wall.' },
@@ -92,6 +94,7 @@ export const THEMES: Option[] = [
   { id: 'rooftop', label: 'ดาดฟ้า (Sunset Rooftop)', value: 'Sunset Rooftop, golden hour lighting, city skyline background' },
   { id: 'floral', label: 'สวนดอกไม้ (Floral Dream)', value: 'Floral Garden, blooming flowers, dreamy atmosphere' },
   { id: 'night-flash', label: 'สตรีทกลางคืน (Night Flash)', value: 'Night Street photography, direct flash, high contrast, city night' },
+  { id: 'luxury-van', label: 'รถตู้ VIP (Luxury Van)', value: 'A photorealistic portrait inside a luxury VIP van, the subject seated on a premium black leather seat. One hand rests casually on the armrest while the other lightly holds the door frame, with legs slightly crossed in an elegant, confident pose. The interior features black leather seating, a wooden floor, and a high-end ceiling design with integrated speakers and LED lighting. Soft interior lighting in white and black tones illuminates the subject, contrasted by subtle red neon lights glowing in the deep background, creating a refined nighttime atmosphere. High-contrast color grading, luxurious and clean aesthetic, sharp focus, ultra-high detail, cinematic lighting, premium VIP interior ambiance.' },
 ];
 
 export const RATIOS: Option[] = [
